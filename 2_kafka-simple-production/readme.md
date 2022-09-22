@@ -10,13 +10,16 @@ requirements of this project :
 - basic concurrency in golang
     - how go-routines works, channels, select statements
 
+**recommended to read this readme.md side-by-side in your IDE while writting the code.
+
+Step by step :
 1. install dependency 
     1.1 sigmento.kafka-go package
         go get github.com/segmentio/kafka-go
 
 2. create reader
     2.1 implement struct "Reader"
-    2.2 create cunstructor "NewKafkaReader" that returns *Reader which contains *kafkago.reader
+    2.2 create cunstructor "NewKafkaReader" that returns *Reader which contains             *kafkago.reader
         2.2.1 register your brocker lokalhost
         2.2.2 topic
         2.2.3 groupid
