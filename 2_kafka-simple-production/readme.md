@@ -1,9 +1,8 @@
-how we can implement a kafka consumer-producer theme 
-in a more kind of production like way
+This is my experiment about how we can implement a kafka consumer-producer theme in a more kind of production like way
 
 in order to illustrate this we should write a program that :
-- simply gets a message from topic_one
-- put it to the topic_two
+- simply write a message from topic1 (as producer)
+- put it to the topic2 (as consumer)
 
 requirements of this project :
 - basic understanding on how apache kafka works
@@ -13,7 +12,7 @@ requirements of this project :
 
 1. install dependency 
     1.1 sigmento.kafka-go package
-    go get github.com/segmentio/kafka-go
+        go get github.com/segmentio/kafka-go
 
 2. create reader
     2.1 implement struct "Reader"
